@@ -22,6 +22,23 @@ cd movie-library
 ```
 npm i
 ```
+## Utilisation sans Docker
+
+Si vous souhaitez exécuter l'application sans utiliser Docker, vous pouvez suivre les étapes suivantes :
+
+1. Exécutez la commande suivante pour construire l'application :
+
+```
+npm run build
+```
+
+2. Une fois la construction terminée, vous pouvez lancer l'application en utilisant la commande :
+
+```
+npm run start
+```
+
+7. Accédez à l'application dans votre navigateur Web à l'adresse [http://localhost:3000](http://localhost:3000).
 
 ## Utilisation avec docker
 
