@@ -1,0 +1,12 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+.franchise {
+    background: linear-gradient(to bottom, #353641, #444654);
+    border-radius: 10px;
+}
+
+body {
+    background-color: #0E131F !important;
+    color: #222222;
+}
