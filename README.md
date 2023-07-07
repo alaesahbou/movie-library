@@ -11,6 +11,10 @@ Une application de recommandation de films construite avec Next.js, GraphQL et D
 
 1. Clonez ce dépôt sur votre machine locale :
 
+```
+git clone https://github.com/alaesahbou/movie-library.git
+```
+
 2. Accédez au répertoire du projet :
 
 ```
