@@ -1,6 +1,4 @@
 import {gql, GraphQLClient} from 'graphql-request'
-import Link from 'next/Link'
-import Image from 'next/Image'
 import Section from "../components/Section"
 import NavBar from "../components/NavBar"
 import disneyLogo from '../public/disney-button.png'
@@ -89,31 +87,31 @@ const Home = ({videos, account}) => {
                     </div>
 
                     <div className="video-feed flex items-center justify-center mt-6">
-                    <Link href="#disney">
+                    <a href="#disney">
                         <div className="franchise mr-2">
-                        <Image src={disneyLogo} alt="Disney" />
+                        <img src={disneyLogo} alt="Disney" />
                         </div>
-                    </Link>
-                    <Link href="#pixar">
+                    </a>
+                    <a href="#pixar">
                         <div className="franchise mr-2">
-                        <Image src={pixarLogo} alt="Pixar" />
+                        <img src={pixarLogo} alt="Pixar" />
                         </div>
-                    </Link>
-                    <Link href="#star-wars">
+                    </a>
+                    <a href="#star-wars">
                         <div className="franchise mr-2">
-                        <Image src={starwarsLogo} alt="Star Wars" />
+                        <img src={starwarsLogo} alt="Star Wars" />
                         </div>
-                    </Link>
-                    <Link href="#nat-geo">
+                    </a>
+                    <a href="#nat-geo">
                         <div className="franchise mr-2">
-                        <Image src={natgeoLogo} alt="National Geographic" />
+                        <img src={natgeoLogo} alt="National Geographic" />
                         </div>
-                    </Link>
-                    <Link href="#marvel">
+                    </a>
+                    <a href="#marvel">
                         <div className="franchise mr-2">
-                        <Image src={marvelLogo} alt="Marvel" />
+                        <img src={marvelLogo} alt="Marvel" />
                         </div>
-                    </Link>
+                    </a>
                     </div>
 
                     <Section genre={'Recommended for you'} videos={unSeenVideos(videos)} />
