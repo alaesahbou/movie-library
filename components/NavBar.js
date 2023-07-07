@@ -21,7 +21,7 @@ const NavBar = ({ account, videos }) => {
     <div className="navbar flex items-center justify-between bg-gray-900 text-white">
         <div className="logo-wrapper mb-3 mt-3">
             <a href="/">
-            <img src={logo} alt="Disney Logo" width={90} height={50} />
+            <img src={logo.src} alt="Disney Logo" width={90} height={50} />
             </a>
         </div>
 
