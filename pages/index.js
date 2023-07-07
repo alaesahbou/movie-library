@@ -89,27 +89,27 @@ const Home = ({videos, account}) => {
                     <div className="video-feed flex items-center justify-center mt-6">
                     <a href="#disney">
                         <div className="franchise mr-2">
-                        <img src={disneyLogo} alt="Disney" />
+                        <img src={disneyLogo.src} alt="Disney" />
                         </div>
                     </a>
                     <a href="#pixar">
                         <div className="franchise mr-2">
-                        <img src={pixarLogo} alt="Pixar" />
+                        <img src={pixarLogo.src} alt="Pixar" />
                         </div>
                     </a>
                     <a href="#star-wars">
                         <div className="franchise mr-2">
-                        <img src={starwarsLogo} alt="Star Wars" />
+                        <img src={starwarsLogo.src} alt="Star Wars" />
                         </div>
                     </a>
                     <a href="#nat-geo">
                         <div className="franchise mr-2">
-                        <img src={natgeoLogo} alt="National Geographic" />
+                        <img src={natgeoLogo.src} alt="National Geographic" />
                         </div>
                     </a>
                     <a href="#marvel">
                         <div className="franchise mr-2">
-                        <img src={marvelLogo} alt="Marvel" />
+                        <img src={marvelLogo.src} alt="Marvel" />
                         </div>
                     </a>
                     </div>
