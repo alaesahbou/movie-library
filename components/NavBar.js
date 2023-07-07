@@ -1,5 +1,3 @@
-import Link from 'next/Link'
-import Image from 'next/Image'
 import logo from '../public/logo.png'
 import { useState } from 'react';
 
@@ -22,9 +20,9 @@ const NavBar = ({ account, videos }) => {
   return (
     <div className="navbar flex items-center justify-between bg-gray-900 text-white">
         <div className="logo-wrapper mb-3 mt-3">
-            <Link href="/">
+            <a href="/">
             <Image src={logo} alt="Disney Logo" width={90} height={50} />
-            </Link>
+            </a>
         </div>
 
         <div className="search-genre relative">
@@ -39,11 +37,11 @@ const NavBar = ({ account, videos }) => {
             {searchQuery && (
             <ul className="search-results px-4 mr-2 absolute left-0 mt-2 bg-gray-900 text-white py-2 rounded shadow w-full">
                 {filteredVideos.map((video) => (
-                    <Link href={`/video/${video.slug}`} key={video.id}>
+                    <a href={`/video/${video.slug}`} key={video.id}>
                     <li className="hover:bg-gray-800 cursor-pointer py-1 px-2 rounded" >
                         {video.title}
                     </li>
-                    </Link>
+                    </a>
                 ))}
             </ul>
             )}
